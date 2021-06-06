@@ -4,11 +4,11 @@
   {
     private int _id;
     
-    public string url { get; set; }
+    public string Url { get; set; }
 
     public Photo(string url)
     {
-      this.url = url;
+      Url = url;
     }
   }
 }

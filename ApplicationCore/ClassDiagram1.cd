@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ApplicationCore.Models.Characters.Admin">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Characters\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.Characters.Customer">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Characters\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.Characters.Moderator">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Characters\Moderator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.Characters.Person">
+    <Position X="19.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAACAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Characters\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.Characters.User">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Characters\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.Address">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.AddressPremises">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\AddressPremises.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.Apartment">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Apartment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.BuildingPremises">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAAABAAAAAAAAACAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\RealEstate\BuildingPremises.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.Garage">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\RealEstate\Garage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.Ground">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Ground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.House">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAEBAQAAAAAAAAAUAAAAEAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.Office">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Office.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.RealEstate.RealEstate">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAEAAAAABAAAAAAAAAAAgCAAAAAQAAAAA=</HashCode>
+      <FileName>Models\RealEstate\RealEstate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCore.Models.Services.Advertisement" BaseTypeListCollapsed="true">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAgAGAAgABAAAAAAAAAAAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Models\Services\Advertisement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.Services.ChatRoom" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAQAAQAE=</HashCode>
+      <FileName>Models\Services\ChatRoom.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.Services.Comment" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Services\Comment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.Services.Message" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Services\Message.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ApplicationCore.Models.Services.Photo">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Services\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ApplicationCore.Models.RealEstate.ILivingQuarters">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\ILivingQuarters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ApplicationCore.Models.Services.ICreatingDate">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Services\ICreatingDate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ApplicationCore.Models.RealEstate.IRoomCounter">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Interfaces\IRoomCounter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ApplicationCore.Models.RealEstate.IBuildingPremise">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\Interfaces\IBuildingPremise.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ApplicationCore.Models.RealEstate.TypeBalcony">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAABAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\TypeBalcony.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ApplicationCore.Models.RealEstate.TypeHeating">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\RealEstate\TypeHeating.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ApplicationCore.Models.RealEstate.TypeHouse">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RealEstate\TypeHouse.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

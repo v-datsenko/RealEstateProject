@@ -8,9 +8,9 @@
 
     public Address(string city, string street, string number)
     {
-      this.City = city;
-      this.Street = street;
-      this.Number = number;
+      City = city;
+      Street = street;
+      Number = number;
     }
   }
 }

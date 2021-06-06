@@ -9,8 +9,8 @@
 
     public User(string login, string password)
     {
-      this.Login = login;
-      this.Password = password;
+      Login = login;
+      Password = password;
     }
   }
 }

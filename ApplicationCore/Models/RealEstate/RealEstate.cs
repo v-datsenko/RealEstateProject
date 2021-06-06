@@ -15,16 +15,16 @@ namespace ApplicationCore.Models.RealEstate
       set
       {
         if(value <= 0)
-          throw new ArgumentNullException("Price cannot be less than or equal to zero.");
+          throw new ArgumentException("Price cannot be less than or equal to zero.");
         _priceInMonth = value;
       }
     }
 
     public RealEstate(Address address, double area,double price)
     {
-      this.Area = area;
-      this.Address = address;
-      this.PriceInMonth = price;
+      Area = area;
+      Address = address;
+      PriceInMonth = price;
     }
 
     public virtual void DisplayInfo()
