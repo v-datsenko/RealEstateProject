@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,16 +33,14 @@ namespace RealEstateProject
                 }
                 if (isValid)
                 {
-                    Console.WriteLine("Serialize...");
-                    await serializationPeople.SerializeToFileAsync(people,"C:\\Test","people");
-
-                    Console.WriteLine("Deserialize...");
-                    people = await serializationPeople.DeserializeFromFileAsync("C:\\Test", "people");
-
-                    foreach (var p in people)
+                    SQLPersonRepository repository = new SQLPersonRepository(@"Data Source=.\SQLEXPRESS;Initial Catalog=peopledb;Integrated Security=True");
+                    
+                    foreach(var p in people)
                     {
-                        Console.WriteLine($"{p.Login} - {p.FirstName} {p.SecondName}");
+                        repository.Create(p);
                     }
+                    repository.Save();
+
                 }
                 else
                 {
